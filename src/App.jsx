@@ -9,6 +9,11 @@ import { useState } from 'react';
 
 export default function App() {
   const [week, setWeek] = useState(data[0])
+
+  const selectWeek = (weekNo) => {
+    setWeek(data[weekNo-1])
+  }
+
   return (
     <MantineProvider theme={DEFAULT_THEME}>
       <AppShell
@@ -27,7 +32,7 @@ export default function App() {
         </AppShell.Header>
 
         <AppShell.Navbar p="md">
-          <NavBarContent data={data} selectWeek={setWeek} />
+          <NavBarContent data={data} selectWeek={selectWeek} />
         </AppShell.Navbar>
 
         <AppShell.Main>

@@ -14,12 +14,11 @@ export default function MealCard({ meal, cardTitle }) {
       );
     };
 
-
   return (
     <Card className={classes.card} shadow="sm" padding="lg" radius="md" withBorder>
       <Card.Section className={classes.section}>
         <Text className={classes.label}>{cardTitle}</Text>
-        <Image src={meal.picture} height={160} alt={meal.name} fallbackSrc={fallbackImage}/>
+        <Image src={`${meal.picture}`} height={160} alt={meal.name} fallbackSrc={fallbackImage}/>
       </Card.Section>
       <Group position="apart" mt="md">
         <Text fw={500}>{meal.title}</Text>

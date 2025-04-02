@@ -8,17 +8,17 @@ export const data = [
         weekday: 'Montag',
         pre: {
           title: 'Karottensticks mit Hummus',
-          picture: './assets/foodImg/karottenhummus.png',
+          picture: '/foodImg/karottenhummus.png',
           badges: ['vegetarian', 'glutenfree']
         },
         main: {
           title: 'Gegrillter Hähnchensalat',
-          picture: 'assets/foodImg/gegrillterhaehnchensalat.png',
+          picture: '/foodImg/gegrillterhaehnchensalat.png',
           badges: ['glutenfree']
         },
         dessert: {
           title: 'Obstsalat',
-          picture: 'assets/foodImg/obstsalat.png',
+          picture: '/foodImg/obstsalat.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -26,17 +26,17 @@ export const data = [
         weekday: 'Dienstag',
         pre: {
           title: 'Tomatensuppe',
-          picture: 'assets/foodImg/tomatensuppe.png',
+          picture: '/foodImg/tomatensuppe.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         },
         main: {
           title: 'Puten-Käse-Sandwich auf Vollkornbrot',
-          picture: 'assets/foodImg/putensandwich.png',
+          picture: '/foodImg/putensandwich.png',
           badges: []
         },
         dessert: {
           title: 'Apfelscheiben',
-          picture: 'assets/foodImg/apfelscheiben.png',
+          picture: '/foodImg/apfelscheiben.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -44,17 +44,17 @@ export const data = [
         weekday: 'Mittwoch',
         pre: {
           title: 'Gurkenscheiben mit Joghurt-Dip',
-          picture: 'assets/foodImg/gurkenscheiben.png',
+          picture: '/foodImg/gurkenscheiben.png',
           badges: ['vegetarian', 'glutenfree']
         },
         main: {
           title: 'Gemüsepfanne mit braunem Reis',
-          picture: 'assets/foodImg/gemuesepfanne.png',
+          picture: '/foodImg/gemuesepfanne.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         },
         dessert: {
           title: 'Gemischte Beeren',
-          picture: 'assets/foodImg/beeren.png',
+          picture: '/foodImg/beeren.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -62,17 +62,17 @@ export const data = [
         weekday: 'Donnerstag',
         pre: {
           title: 'Selleriestangen mit Erdnussbutter',
-          picture: 'assets/foodImg/gemuesepfanne.png',
+          picture: '/foodImg/gemuesepfanne.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         },
         main: {
           title: 'Vollkornnudeln mit Tomatensauce',
-          picture: 'assets/foodImg/vollkornnudelntomate.png',
+          picture: '/foodImg/vollkornnudelntomate.png',
           badges: ['vegetarian', 'vegan']
         },
         dessert: {
           title: 'Orangenspalten',
-          picture: 'assets/foodImg/orangenspalten.png',
+          picture: '/foodImg/orangenspalten.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -80,17 +80,17 @@ export const data = [
         weekday: 'Freitag',
         pre: {
           title: 'Griechischer Salat',
-          picture: 'assets/foodImg/griechsalat.png',
+          picture: '/foodImg/griechsalat.png',
           badges: ['vegetarian', 'glutenfree']
         },
         main: {
           title: 'Gebackener Fisch mit Quinoa',
-          picture: 'assets/foodImg/fischquinoa.png',
+          picture: '/foodImg/fischquinoa.png',
           badges: ['glutenfree']
         },
         dessert: {
           title: 'Banane',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/banane.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       }
@@ -110,7 +110,7 @@ export const data = [
         },
         main: {
           title: 'Hähnchen-Wrap mit Salat und Tomate',
-          picture: 'path/to/image.jpg',
+          picture: '/foodImg/haehnchenwrap.png',
           badges: []
         },
         dessert: {
@@ -123,17 +123,17 @@ export const data = [
         weekday: 'Dienstag',
         pre: {
           title: 'Minestrone-Suppe',
-          picture: 'assets/foodImg/minestrone.png',
+          picture: '/foodImg/minestrone.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         },
         main: {
           title: 'Thunfischsalat auf Vollkornbrot',
-          picture: 'assets/foodImg/thunfischsalatbrot.png',
+          picture: '/foodImg/thunfischsalatbrot.png',
           badges: []
         },
         dessert: {
           title: 'Ananasstücke',
-          picture: 'assets/foodImg/ananas.png',
+          picture: '/foodImg/ananas.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -141,17 +141,17 @@ export const data = [
         weekday: 'Mittwoch',
         pre: {
           title: 'Kirschtomaten mit Mozzarella',
-          picture: 'assets/foodImg/kirschtomatenmozarella.png',
+          picture: '/foodImg/kirschtomatenmozarella.png',
           badges: ['vegetarian', 'glutenfree']
         },
         main: {
           title: 'Gemüselasagne',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/gemueselasagne.png',
           badges: ['vegetarian']
         },
         dessert: {
           title: 'Pfirsichscheiben',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/pfirsich.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -159,17 +159,17 @@ export const data = [
         weekday: 'Donnerstag',
         pre: {
           title: 'Brokkoliröschen mit Ranch-Dip',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/brokkoliranch.png',
           badges: ['vegetarian', 'glutenfree']
         },
         main: {
           title: 'Hähnchen- und Gemüsespieße',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/haehnchenspiesse.png',
           badges: ['glutenfree']
         },
         dessert: {
           title: 'Erdbeeren',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/banane.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -177,17 +177,17 @@ export const data = [
         weekday: 'Freitag',
         pre: {
           title: 'Spinatsalat',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/spinatsalat.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         },
         main: {
           title: 'Puten-Chili',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/putenchili.png',
           badges: ['glutenfree']
         },
         dessert: {
           title: 'Wassermelone',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/wassermelone.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       }
@@ -202,17 +202,17 @@ export const data = [
         weekday: 'Montag',
         pre: {
           title: 'Zuckerschoten mit Tzatziki',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/zuckerschoten.png',
           badges: ['vegetarian', 'glutenfree']
         },
         main: {
           title: 'Rindfleisch-Gemüsepfanne',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/rindgemuesepfanne.png',
           badges: ['glutenfree']
         },
         dessert: {
           title: 'Mangoscheiben',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/mangoscheiben.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -220,17 +220,17 @@ export const data = [
         weekday: 'Dienstag',
         pre: {
           title: 'Linsensuppe',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/linsensuppe.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         },
         main: {
           title: 'Hähnchen-Caesar-Salat',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/haehnchencesar.png',
           badges: ['glutenfree']
         },
         dessert: {
           title: 'Blaubeeren',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/blaubeeren.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -238,17 +238,17 @@ export const data = [
         weekday: 'Mittwoch',
         pre: {
           title: 'Babymöhren mit Ranch-Dip',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/babymoehren.png',
           badges: ['vegetarian', 'glutenfree']
         },
         main: {
           title: 'Gemüsecurry mit braunem Reis',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/gemuesecurry.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         },
         dessert: {
           title: 'Kiwi-Scheiben',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/kiwischeiben.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -256,17 +256,17 @@ export const data = [
         weekday: 'Donnerstag',
         pre: {
           title: 'Gemischter Salat',
-          picture: './assets/foodImg/banane.png',
+          picture: '/foodImg/gemischtersalat.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         },
         main: {
           title: 'Gegrillter Lachs mit Quinoa',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/gegrillterlachs.png',
           badges: ['glutenfree']
         },
         dessert: {
           title: 'Apfelscheiben',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/apfelscheiben.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       },
@@ -274,17 +274,17 @@ export const data = [
         weekday: 'Freitag',
         pre: {
           title: 'Caprese-Salat',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/capresesalat.png',
           badges: ['vegetarian', 'glutenfree']
         },
         main: {
           title: 'Gemüse-Käse-Quesadilla',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/quesadilla.png',
           badges: ['vegetarian']
         },
         dessert: {
           title: 'Birnenscheiben',
-          picture: 'assets/foodImg/banane.png',
+          picture: '/foodImg/birnenscheiben.png',
           badges: ['vegetarian', 'vegan', 'glutenfree']
         }
       }
