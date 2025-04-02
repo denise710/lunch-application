@@ -32,11 +32,11 @@ export default function App() {
         </AppShell.Header>
 
         <AppShell.Navbar p="md">
-          <NavBarContent data={data} selectWeek={selectWeek} />
+          Navigation
         </AppShell.Navbar>
 
         <AppShell.Main>
-          <Mealplan week={week} />
+          Hier soll Text stehen
         </AppShell.Main>
       </AppShell>
     </MantineProvider>
